@@ -1,9 +1,9 @@
 pipeline {
     agent any
-    tools {
+    /*tools {
         jdk 'jdk8'
         maven 'maven3'
-    }
+    }*/
     stages {
         stage('Install') {
             steps {
